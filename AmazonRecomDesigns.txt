@@ -1,0 +1,2 @@
+Design Amazon Recommendations Feature. Focus on designing how would you store and make it accessible fast? What would be class design like
+for the class which would provide list of products which people bought similar to a given product? How would you test that class?
