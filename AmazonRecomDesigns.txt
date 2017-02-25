@@ -1,2 +1,5 @@
 Design Amazon Recommendations Feature. Focus on designing how would you store and make it accessible fast? What would be class design like
 for the class which would provide list of products which people bought similar to a given product? How would you test that class?
+
+
+Yes and sorry if I wasn't clear but this was specifically about that section at the bottom of product description page where we show people who bought this product also bought these... and question was how would you design storage and data structure to enable fast retrieval of products so that page rendering isn't slowed down.My solution was to have a graph in cache where each product has edges to its related 20 products and a hashmap with product id and product node in there so we can quickly retrieve current product using product id and then its related 20 products using edges. Then he asked me to implement a class for this and then asked me how would you test this.He then dug deeper into how many products would you store and how much memory would you need? etc.
